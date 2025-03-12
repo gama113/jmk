@@ -102,7 +102,7 @@ body {
 .nav_bar a {
     margin-left: 16px;
     margin-right: 32px;
-    color: rgb(255, 255, 255);
+/*     color: rgb(255, 255, 255); */
 }
 
 .nav-item {
@@ -178,7 +178,7 @@ body {
 }
 
 .dropdown-content a {
-    color: rgb(255, 255, 255);
+/*     color: rgb(255, 255, 255); */
     padding: 12px;
     text-decoration: none;
     display: block;
@@ -721,7 +721,7 @@ textarea:focus {
 
 .footer-links {
     text-decoration: none;
-    color: #ffffff;
+/*     color: #ffffff; */
     line-height: 42px
 }
 
