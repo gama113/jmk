@@ -430,7 +430,7 @@ aside {
 .fi a:hover {
 
 
-    background-color: rgba(38, 66, 36, 0.836);
+    background-color: #040b04;
     border-radius: 12px;
     box-shadow: 4px 4px 0.5rem0.125rem rgb(128, 127, 127 / 23%);
 }
