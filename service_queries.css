@@ -225,10 +225,17 @@
     margin-top: 20px;
     min-width: none;
   }
-}
+
 
 .contact_us_ancor {
   margin-top: 340px;
+}
+  .aboutussection_page {
+    /* margin-right: 50px; */
+    margin-left: 0;
+    margin-right: 0;
+}
+
 }
 
 
