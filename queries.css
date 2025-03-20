@@ -1,7 +1,7 @@
 /**************************/
-/* BELOW 1344px  */
+/* BELOW 1360px  */
 /**************************/
-@media (max-width: 84em) {
+@media (max-width: 85em) {
   .flex_box {
     margin-right: -16rem;
 
