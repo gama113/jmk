@@ -317,6 +317,10 @@ body {
 }
 
 
+strong {
+        color: #ecd9c6;
+}
+
 
 article {
     margin-top: 0.625rem;
