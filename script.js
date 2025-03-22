@@ -41,7 +41,7 @@ function validateForm() {
   }
 
   var mailto_link =
-    "mailto:piyush@jmkonline.co.in?subject=Message from " +
+    "mailto:info@jmkonline.co.in?subject=Message from " +
     name +
     "&body=" +
     encodeURIComponent(message + "\n\nFrom: " + name + "\nEmail: " + email);
