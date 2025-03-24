@@ -1,0 +1,7 @@
+/* BELOW 425px */
+@media (max-width: 425px) {
+  body {
+    background-color: yellow;
+    /* Test background color */
+  }
+}

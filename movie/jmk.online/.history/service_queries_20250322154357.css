@@ -1,0 +1,644 @@
+/**************************/
+/* BELOW 1344px  s) */
+/**************************/
+
+
+@media (max-width: 1344px) {
+
+
+  .flex_box {
+
+    margin-right: -20rem;
+  }
+
+  .logo_g19_svg {
+    height: 102px;
+
+  }
+
+
+
+  .address-col {
+    margin-left: 144px;
+
+  }
+
+  .img_debt_synd {
+    height: 187px;
+  }
+}
+
+/**************************/
+/* BELOW 1200px (Landscape Tablets) */
+/**************************/
+
+@media (max-width:1200px) {
+
+  .flex_box {
+    margin-right: 0.5rem;
+  }
+
+  .tag-line h2 {
+    margin: 0.125rem;
+  }
+
+  .nav a {
+
+    padding: 14px 17px;
+
+  }
+
+  .address-col {
+    margin-left: 144px;
+
+  }
+
+  .img_debt_synd {
+    height: 152px;
+  }
+
+}
+
+/**************************/
+/* BELOW 1117px (Landscape Tablets) */
+/**************************/
+
+@media (max-width: 1116px) {
+
+
+
+  .tag-line h2 {
+    word-spacing: 0.605rem;
+  }
+
+  .nav a {
+
+    padding: 14px 17px;
+
+  }
+
+  .address-col {
+    margin-left: 154px;
+
+  }
+
+  .contacts {
+    margin-left: 0;
+  }
+
+
+  .img_debt_synd {
+    height: 121px;
+  }
+}
+
+/**************************/
+/* BELOW 1024px (Landscape Tablets) */
+/**************************/
+
+@media (max-width: 1024px) {
+  .tag-line h2 {
+    word-spacing: 0.525rem;
+  }
+
+  .tag-line h4 {
+    word-spacing: 2px;
+  }
+
+  .side-bar {
+    display: none;
+  }
+
+  .dropdown-content {
+    min-width: 318px;
+    bottom: -329px;
+  }
+
+
+  .nav a {
+
+    padding: 14px 0;
+
+  }
+
+  .img_debt_synd {
+    height: 214px;
+  }
+
+
+  /* SIDE PANNEL */
+  /*   
+  .flex_box {
+    margin-right: 0;
+    display: none;
+  }
+
+  #mySidebar_sidepanel {
+    display: block;
+    white-space: nowrap;
+  }
+
+  .icon {
+    display: block;
+  }
+
+
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    display: block;
+  }
+
+  .sid_pannel {
+    margin-right: 56px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .openbtn {
+    display: flex;
+    margin-bottom: 4px;
+    height: 0px;
+  }
+
+  .bar1 {
+    width: 20px;
+    height: 0px;
+    margin-bottom: 4px;
+  }
+
+  .bar2 {
+    width: 20px;
+    height: 0px;
+    margin-bottom: 4px;
+  }
+
+  .bar3 {
+    width: 20px;
+    height: 0px;
+    margin-bottom: 4px;
+  }
+
+  .dropbtn {
+    font-size: 18px;
+    padding: 14px 0;
+  }
+
+  .nav_elements_flex {
+    display: flex;
+    flex-direction: column;
+    margin-left: 48px;
+  }
+
+
+  .sideber_sidepanel {
+    width: 188px;
+    -webkit-box-shadow: inset 5px 0px 0px 0px rgb(255, 255, 255);
+    -moz-box-shadow: inset 5px 0px 0px 0px rgb(255, 255, 255);
+    box-shadow: inset 5px 0px 0px 0px rgb(255, 255, 255);
+  }
+
+
+  .dropdown-content a:hover {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .dropdown-content {
+    display: block;
+    background-color: #44854017;
+    border-radius: 0;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+    padding-top: 0;
+    padding-bottom: 0;
+    position: absolute;
+    min-width: w-webkit-fill-available;
+    min-width: 375px;
+    bottom: -329px;
+  }
+
+
+  .drop-flex {
+    margin-left: 90px;
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    min-width: none;
+  } */
+  /* Styles for the sidebar */
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+  }
+
+
+
+  .sidebar_sidepanel {
+    height: 100vh;
+    /* Changed to 100vh */
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #192e1f;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    -webkit-box-shadow: inset 5px 0px 0px 0px rgb(255, 255, 255);
+    -moz-box-shadow: inset 5px 0px 0px 0px rgb(255, 255, 255);
+    box-shadow: inset 5px 0px 0px 0px rgb(255, 255, 255);
+  }
+
+  .sidebar_sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    /* color: #818181; */
+    display: block;
+    transition: 0.3s;
+  }
+
+  .sidebar_sidepanel a:hover {
+    color: #f1f1f1;
+  }
+
+  .sidebar_sidepanel .closebtn {
+    position: absolute;
+    /* top: 13px;
+  right: 50px; */
+    font-size: 36px;
+    margin-left: 50px;
+    box-shadow: none;
+    background-color: rgba(255, 255, 255, 0);
+    top: 32px;
+    right: 23px;
+    border: none;
+  }
+
+  .bar {
+    width: 20px;
+    height: 3px;
+    /* Changed height */
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 4px;
+  }
+
+  .contact_us_ancor {
+    margin-top: 340px;
+  }
+
+}
+
+
+
+
+/**************************/
+/* BELOW 979.99px (Landscape Tablets) */
+/**************************/
+@media (max-width: 979.99px) {
+
+
+
+  .address-col {
+    margin-left: 216px;
+  }
+
+
+
+  .tag-line h2 {
+    word-spacing: 0.525rem;
+  }
+
+  .tag-line h4 {
+    word-spacing: 2px;
+  }
+
+  .side-bar {
+    display: none;
+  }
+
+  .dropdown-content {
+    min-width: 318px;
+    bottom: -329px;
+  }
+
+
+  .nav a {
+
+    padding: 14px 0;
+
+  }
+
+  .img_debt_synd {
+    height: 196px;
+  }
+
+
+  /* fotter */
+
+
+  .glass_effect {
+    flex-direction: column;
+    height: 65rem;
+    margin-top: -19rem;
+  }
+
+
+  .container {
+    margin-bottom: 52px;
+    margin-top: 0;
+  }
+
+  .footer {
+    flex-direction: column;
+    background-size: cover;
+    /* Ensure the background image covers the entire footer */
+    background-position: center;
+    height: 35rem;
+    margin-top: 27.6rem;
+  }
+
+  .footer>* {
+    width: 100%;
+    /* Ensure the child elements take up full width */
+    /* margin-bottom: 10px; */
+    /* Add some space between elements */
+
+  }
+
+  .content6 {
+    margin-bottom: 776px;
+  }
+
+  .foot_el img {
+    margin-left: -7px;
+  }
+
+
+}
+
+/**************************/
+/* BELOW 930.5px (Landscape Tablets) */
+/**************************/
+@media (max-width: 930.5px) {
+
+  .img_debt_synd {
+    height: 175px;
+  }
+
+}
+
+
+/**************************/
+/* BELOW 834.400px (Landscape Tablets) */
+/**************************/
+
+@media (max-width: 834.400px) {
+
+
+  .img_debt_synd {
+    height: 172px;
+  }
+
+
+
+
+}
+
+
+/**************************/
+/* BELOW 767.98px (Landscape Tablets) */
+/**************************/
+@media (max-width: 767.98px) {
+
+
+  .img_debt_synd {
+    height: 145px;
+  }
+
+
+  article p {
+    font-size: 16px;
+
+  }
+
+  .side-bar {
+    display: none;
+  }
+
+
+
+}
+
+
+/**************************/
+/* BELOW 768px (Landscape Tablets) */
+/**************************/
+@media (max-width: 768px) {
+
+
+  .img_debt_synd {
+    height: 145px;
+  }
+
+
+
+}
+
+
+/**************************/
+/* BELOW  576px (Landscape Tablets) */
+/**************************/
+@media (max-width: 576px) {
+
+  .side-bar {
+    display: none;
+  }
+
+  .logo_g19_svg {
+    height: 92px;
+  }
+
+  .tag-line {
+    margin-left: -144px;
+  }
+
+  .img_debt_synd {
+    height: 99px;
+  }
+
+
+
+  /* ?fotter */
+  .address-col {
+    margin-left: 124px;
+  }
+
+  .glass_effect {
+    flex-direction: column;
+    height: 65rem;
+    margin-top: -22rem;
+  }
+
+
+  .container {
+    margin-bottom: 52px;
+    margin-top: 0;
+    width: 436px;
+  }
+
+
+
+
+
+  .content6 {
+    margin-bottom: 776px;
+  }
+
+
+
+
+}
+
+/**************************/
+/* BELOW 575px (Landscape Tablets) */
+/**************************/
+
+@media (max-width: 575px) {
+
+  .img_debt_synd {
+    height: 88px;
+  }
+}
+
+/**************************/
+/* BELOW 432px (Landscape Tablets) */
+/**************************/
+@media (max-width: 432px) {
+
+  .logo_g19_svg {
+    height: 83px;
+  }
+
+  .tag-line h2 {
+    word-spacing: 0;
+    font-size: 24px;
+  }
+
+  .tag-line h4 {
+    word-spacing: 0;
+    font-size: 16px;
+  }
+
+  .tag-line {
+    margin-left: -137px;
+  }
+
+
+  .sid_pannel {
+    margin-right: 34px;
+  }
+
+  #main-doc {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+
+
+  .container {
+    width: 324px;
+  }
+
+  .address-col {
+    margin-left: 90px;
+  }
+}
+
+/**************************/
+/* BELOW 392px (Landscape Tablets) */
+/**************************/
+@media (max-width: 392px) {
+
+
+  .logo_g19_svg {
+    height: 82px;
+  }
+
+  .tag-line h2 {
+    font-size: 22px;
+  }
+
+  .tag-line h4 {
+    font-size: 14px;
+  }
+
+  #main-doc {
+    margin-right: 16px;
+    margin-left: 16px;
+  }
+
+  .h_1 {
+    font-size: 1.19rem;
+  }
+
+
+  .container {
+    width: 318px;
+  }
+
+
+  .footer-links {
+    line-height: 32px;
+  }
+
+  .address-col {
+
+    font-size: 1rem;
+
+  }
+}
+
+/**************************/
+/* BELOW 387px (Landscape Tablets) */
+/**************************/
+@media (max-width: 378px) {
+  .logo_g19_svg {
+    height: 78px;
+  }
+
+  .tag-line h2 {
+    margin-bottom: -6px;
+  }
+
+  .sid_pannel {
+    margin-right: 22px;
+  }
+
+  .h_1 h1 {
+    font-size: 1.6rem;
+  }
+
+  .h_2 h2 {
+    font-size: 1.19rem;
+  }
+
+  #main-doc {
+    margin-right: 12px;
+    margin-left: 12px;
+  }
+
+  .img_debt_synd {
+    height: 84px;
+  }
+
+  .container {
+    width: 294px;
+  }
+
+  .address-col {
+    margin-left: 74px;
+  }
+
+}
