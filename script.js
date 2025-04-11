@@ -151,10 +151,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // Toggle Sidebar Function
   function toggleSidebar() {
-    if (sidebar.style.width === "300px") {
+    if (sidebar.style.width === "320px") {
       sidebar.style.width = "0";
     } else {
-      sidebar.style.width = "300px";
+      sidebar.style.width = "320px";
     }
   }
 
@@ -196,7 +196,7 @@ document.addEventListener("DOMContentLoaded", function() {
     if (
       !openButton.contains(event.target) &&
       !sidebar.contains(event.target) &&
-      sidebar.style.width === "300px"
+      sidebar.style.width === "320px"
     ) {
       sidebar.style.width = "0";
     }
