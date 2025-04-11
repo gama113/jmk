@@ -307,7 +307,7 @@ body {
   height: 100vh;
   
   /* Changed to 100vh */
-  width: 320;
+  width: 0;
   position: fixed;
   z-index: 1;
   top: 0;
